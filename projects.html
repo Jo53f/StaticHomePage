@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <script src="scripts/darkMode.js" defer></script>
+  </head>
+  <body>
+  <header>
+    <h1>Josef's Website hosted on Azure</h1>
+  </header>
+  <div id="navigationBar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a> </li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <button id="dark-mode-button">Toggle Dark Mode</button>
+  </div>
+    <main>
+      <h2>Projects</h2>
+
+      <div id="content">
+
+        <div class="card">
+          <h4>Coffee Shop</h4>
+          <p>In of itself an improvement on the rise-and-grind project completed during the Generation course, now implemented using object oriented paradigms and connecting to a MySQL backend for data persistence.</p>
+        </div>
+
+        <div class="card">
+          <h4>MySQL Database</h4>
+          <p>Installed and configured a mysql database in a VM, creating necessary tables for a project's requirements and connecting the database to the aforementioned python project with necessary permissions.</p>
+        </div>
+
+        <div class="card">
+          <h4>Docker Compose</h4>
+          <p>Successfully utilised Docker Compose to migrate a MySQL Database from a virtual machine to a containerised environment for a python project, defining the service and volume (for initialisation) required by the application.</p>
+        </div>
+
+      </div>
+    </main>
+  </body>
+</html>

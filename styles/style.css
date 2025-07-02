@@ -1,0 +1,150 @@
+:root {
+    --main: #3674B5;
+    --secondary: #578FCA;
+    --tertiary: #F5F0CD;
+    --highlighs: #FADA7A;
+    --on-col-text: #ffffff;
+    --text: #000000;
+    --background: #ffffff;
+
+    --main-dark: #222831;
+    --secondary-dark: #393E46;
+    --tertiary-dark: #948979;
+    --highlighs-dark: #DFD0B8;
+    --on-col-text-dark: #000000;
+    --text-dark: #ffffff;
+    --background-dark: #000000;
+}
+
+header {
+    background: var(--main);
+    color: var(--on-col-text);
+    padding: 10px;
+    margin: 0;
+    overflow: visible;
+}
+
+header.dark {
+    background: var(--main-dark);
+    color: var(--on-col-text);
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+#navigationBar {
+    background: var(--secondary);
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    position: sticky;
+}
+
+#navigationBar.dark {
+    background: var(--secondary-dark);
+}
+
+#navigationBar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+#navigationBar ul li {
+    margin: 0 10px;
+    background: var(--highlighs);
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: black 1px 1px 1px 1px;
+}
+
+#navigationBar ul li:hover {
+    background: var(--highlighs-dark);
+}
+
+/*#navigationBar ul li.dark {*/
+/*    background: var(--highlighs-dark);*/
+/*}*/
+
+#navigationBar ul li a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+#navigationBar ul li a.dark {
+    color: var(--text-dark);
+}
+
+#light-mode-button {
+    position: relative;
+    margin-left: auto;
+}
+
+body {
+    overflow-x: visible;
+    background: #ffffff;
+    font-family: sans-serif;
+    color: var(--text);
+    /*margin-top: 0;*/
+    margin: 0;
+}
+
+body.dark {
+    background: #000000;
+    color: var(--text-dark);
+}
+
+/*#BBB8B2*/
+/*rgba(255, 255, 255, 0.71)*/
+
+.profile {
+    padding: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    box-shadow: black 1px 1px 1px 1px;
+    border-color: var(--tertiary);
+    background-color: var(--tertiary);
+}
+
+.profile.dark {
+    border-color: var(--tertiary-dark);
+    background-color: var(--tertiary-dark);
+    box-shadow: darkgrey 1px 1px 1px 1px;
+}
+
+.card {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: var(--tertiary);
+    box-shadow: black 1px 1px 1px 1px;
+}
+
+/*.card {*/
+/*    margin: 10px 0;*/
+/*    padding: 10px;*/
+/*    border-radius: 5px;*/
+/*    border-style: solid;*/
+/*    border-color: blue;*/
+/*    box-shadow: black 1px 1px 1px 1px;*/
+/*}*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    justify-content: center;
+    /*height: 100vh;*/
+    max-width: 22cm;
+    /*overflow: hidden;*/
+    /*position: relative;*/
+    margin: auto;
+    padding: 2mm;
+}
