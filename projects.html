@@ -18,26 +18,44 @@
       <li><a href="projects.html">Projects</a> </li>
       <li><a href="about.html">About</a></li>
     </ul>
-    <button id="dark-mode-button">Toggle Dark Mode</button>
+    <button id="dark-mode-button">
+      <img id="dark-mode-image" src="images/darkmode.png" alt="Icon Button" style="height:30px;">
+    </button>
   </div>
     <main>
       <h2>Projects</h2>
 
       <div id="content">
 
-        <div class="card">
-          <h4>Coffee Shop</h4>
-          <p>In of itself an improvement on the rise-and-grind project completed during the Generation course, now implemented using object oriented paradigms and connecting to a MySQL backend for data persistence.</p>
-        </div>
+        <div class="cards">
 
-        <div class="card">
-          <h4>MySQL Database</h4>
-          <p>Installed and configured a mysql database in a VM, creating necessary tables for a project's requirements and connecting the database to the aforementioned python project with necessary permissions.</p>
-        </div>
+          <div class="card">
+            <h4>Python Project - Rise and Grind - Generation</h4>
+            <p>A python project created during the Generation Course, collaborating in groups using GitHub. Our task was to design and implement a Python program with six functional requirements and two stretch goals, demonstrating how we would work as a group with a tight deadline, the deadline set for the next day.</p>
+          </div>
 
-        <div class="card">
-          <h4>Docker Compose</h4>
-          <p>Successfully utilised Docker Compose to migrate a MySQL Database from a virtual machine to a containerised environment for a python project, defining the service and volume (for initialisation) required by the application.</p>
+          <div class="card">
+            <h4>Coffee Shop</h4>
+            <p>A python project created during the Generation Course</p>
+            <p>In of itself an improvement on the rise-and-grind project completed during the Generation course, now implemented using object-oriented paradigms and connecting to a MySQL backend for data persistence.</p>
+            <a href="https://github.com/Jo53f/coffeeShop">GitHub Page</a>
+          </div>
+
+          <div class="card">
+            <h4>MySQL Database</h4>
+            <p>Installed and configured a mysql database in a VM, creating necessary tables for a project's requirements and connecting the database to the aforementioned python project with necessary permissions.</p>
+          </div>
+
+          <div class="card">
+            <h4>Docker Compose</h4>
+            <p>Successfully utilised Docker Compose to migrate a MySQL Database from a virtual machine to a containerised environment for a python project, defining the service and volume (for initialisation) required by the application.</p>
+          </div>
+
+          <div class="card">
+            <h4>CI/CD Pipeline</h4>
+            <p>This very website is a product of this project, where a workflow file was created to deploy the website to an azure blob storage resource hosting a static website on push to the main branch. This would be done using GitHub Actions.</p>
+          </div>
+
         </div>
 
       </div>
