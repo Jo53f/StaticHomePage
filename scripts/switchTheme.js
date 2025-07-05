@@ -1,0 +1,16 @@
+function changeTheme() {
+    let theme = localStorage.getItem("theme");
+    let themeImage = document.getElementById("theme-mode");
+    if (theme === "dark") {
+        document.documentElement.classList.remove("dark");
+        localStorage.setItem("theme", "light");
+        themeImage.src = "images/lightmode.png";
+    } else {
+        localStorage.setItem("theme", "dark");
+        document.documentElement.classList.add("dark");
+        themeImage.src = "images/darkmode.png";
+    }
+}
+
+let themeButton = document.getElementById("theme-mode-button");
+themeButton.addEventListener("click", changeTheme);
