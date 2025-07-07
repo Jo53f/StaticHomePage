@@ -25,15 +25,15 @@
 
   </div>
     <main>
-      <h2>Projects</h2>
-
       <div id="content">
+
+        <h2>Generation</h2>
 
         <div class="cards">
 
           <div class="card">
             <h4>Python Project - Rise and Grind - Generation</h4>
-            <p>A python project created during the Generation Course, collaborating in groups using GitHub. Our task was to design and implement a Python program with six functional requirements and two stretch goals, demonstrating how we would work as a group with a tight deadline, the deadline set for the next day.</p>
+            <p>A python project created during the Generation Course, collaborating in groups using GitHub. Our task was to design and implement a Python program with six functional requirements and two stretch goals, demonstrating how we would work as a group with a tight deadline, set for the next day.</p>
           </div>
 
           <div class="card">
@@ -46,6 +46,7 @@
           <div class="card">
             <h4>MySQL Database</h4>
             <p>Installed and configured a mysql database in a VM, creating necessary tables for a project's requirements and connecting the database to the aforementioned python project with necessary permissions.</p>
+            <p>Went on to create another database through a bash script, with the right configuration for WordPress installation to function.</p>
           </div>
 
           <div class="card">
@@ -54,10 +55,54 @@
           </div>
 
           <div class="card">
-            <h4>CI/CD Pipeline</h4>
-            <p>This very website is a product of this project, where a workflow file was created to deploy the website to an azure blob storage resource hosting a static website on push to the main branch. This would be done using GitHub Actions.</p>
+            <h4>Website</h4>
+            <p>This website uses HTML/CSS/JavaScript with automatic dark mode detection. CSS styling changes occur programmatically when system preferences show a dark theme is preferred or when the user toggles the theme button in the top right.</p>
+            <a href="https://github.com/Jo53f/StaticHomePage/tree/master#">GitHub Page</a>
           </div>
 
+          <div class="card">
+            <h4>CI/CD Pipeline</h4>
+            <p>This very website's deployment workflow automates continuous integration via GitHub Actions. This setup ensures updates to the main branch are immediately reflected across all hosted environments by deploying static content programmatically through Azure Blob Storage.</p>
+          </div>
+
+          <div class="card">
+            <h4>WordPress Installation via Bash Script</h4>
+            <p>Wrote a bash script to automate the download and setup of WordPress and setting file system permissions to adhere to best practices</p>
+          </div>
+
+        </div>
+
+        <h2>Own time</h2>
+        <div class="cards">
+          <div class="card">
+            <h4>Android App Development in Kotlin</h4>
+            <p>Successfully built a Computer Tips application featuring intuitive UI card layouts developed in Kotlin using clean architectural practices. Created as part of Google's educational resources platform.</p>
+          </div>
+
+          <div class="card">
+            <h4>Java SpringBoot - Foreign Currency</h4>
+            <p>Used Java (Spring Boot) to build a RESTful microservice that fetches and manages currencies from an SQL database. Specifically, it leverages Spring Data JDBC to connect to PostgreSQL via Docker Compose for persistence management.</p>
+            <p>The application comprises two key components: First, a CurrencyController class provides REST APIs at GET /api/currency/* that returns currency data either from an embedded JSON file or SQL database depending on initialization. Second, during startup, Spring's `CommandLineRunner` is used to load records into the PostgreSQL table ensuring quick deployment without manual setup.</p>
+            <a href="https://github.com/Jo53f/ForeignExchange">Github Page</a>
+          </div>
+        </div>
+
+        <h2>Extra</h2>
+        <div class="cards">
+          <div class="card">
+            <h4>Cisco intro to software engineering virtual experience</h4>
+            <p>Set up a React application and stitch together a series of reusable React components to create a dashboard front-end.</p>
+            <p>Used Websocket to connect to an external service and display packet latency.</p>
+            <a href="https://github.com/Jo53f/cisco-starter-repo">Github Page</a>
+          </div>
+
+          <div class="card">
+            <h4>J.P. Morgan Software Engineering Virtual Experience on Forage.</h4>
+            <p>Set up a local dev environment by downloading the necessary files, tools and dependencies.</p>
+            <p>Fixed broken files in the repository to make web application output correctly.</p>
+            <p>Used JPMorgan Chase’s open source library called Perspective to generate a live graph that displays a data feed in a clear and visually appealing way for traders to monitor.</p>
+            <a href="https://github.com/Jo53f/forage-jpmc-swe-task-3">Github Page</a>
+          </div>
         </div>
 
       </div>
